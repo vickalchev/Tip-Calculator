@@ -1,0 +1,55 @@
+:root {
+  background-color: #e6f1ff;
+}
+
+body {
+  margin: 0px;
+}
+
+#panelBox {
+  background-color: #020c1b;
+  box-shadow: #02e2ac 10px 10px;
+  margin: 30px;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#inputFields {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 3px;
+  margin: 20px;
+  background-color: transparent;
+  border-width: 0 0 1px;
+  border-color: #02e2ac;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 20px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #02e2ac;
+}
+
+button:hover {
+  background-color: #02e2ac;
+  color: black;
+}
